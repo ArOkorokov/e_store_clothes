@@ -1,0 +1,12 @@
+.swiper {
+    height: 120px;
+    background-color: #091f45;
+    color: #ffffff;
+}
+.swiper-slide {
+    display: grid;
+}
+.swiper-slide_img {
+    align-self: center;
+    justify-self: center;
+}

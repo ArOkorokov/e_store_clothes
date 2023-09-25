@@ -138,6 +138,7 @@ body {
     z-index: 1;
     pointer-events: none;
     color: #ffffff;
+    padding: 25px 0;
 }
 .submenu-open {
     top: 90px;
@@ -345,6 +346,9 @@ body {
         transform: translateX(-38%);
         transition: all 0.6s ease 0.1s;
     }
+    .header-logo {
+        font-size: 16px;
+    }
 }
 @media (max-width: 500.8px) {
     .header-container {
@@ -355,9 +359,6 @@ body {
     .header-input:focus {
         width: 315px;
         transform: translateX(-40%);
-    }
-    .header-logo {
-        font-size: 24px;
     }
     .submenu-open {
         grid-template-columns: repeat(2,1fr);
@@ -416,10 +417,12 @@ body {
     max-width: 200px;
     border-radius: 62px;
     text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 
 .myShop__advantage {
-    margin-top: 20px;
+    margin: 20px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 25px;
@@ -434,6 +437,7 @@ body {
 
 .myShop-banner_img-wrapper {
     position: relative;
+    bottom: -4px;
 }
 .myShop-banner_img {
     position: absolute;
@@ -514,4 +518,33 @@ body {
     .myShop-banner_img {
         max-width: 280px;
     }
+}
+
+.arrivals {
+}
+.arrivals__title {
+}
+.arrivals__cards {
+}
+.arrival__card-wrapper {
+}
+.arrival__card-img_wrapper {
+}
+.arrival__card-img {
+}
+.arrival__card_title {
+}
+.arrival__card_stars-wrapper {
+}
+.arrival__card_stars {
+}
+.arrival__card_total-stars {
+}
+.arrival__card_price-wrapper {
+}
+.arrival__card_price {
+}
+.arrival__card_price-discount {
+}
+.arrivals__btn {
 }
