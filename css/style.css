@@ -393,7 +393,7 @@ body {
 .myShop-banner__content {
     display: grid;
     row-gap: 32px;
-    margin-top: 70px;
+    padding: 70px 0;
 }
 
 .myShop-banner_title {
@@ -512,6 +512,7 @@ body {
     }
     .myShop-banner__content {
         gap: 15px;
+        padding: 0 30px;
     }
 }
 @media(max-width: 380px) {
@@ -521,30 +522,154 @@ body {
 }
 
 .arrivals {
+    padding: 70px 100px;
+    display: grid;
+    justify-items: center;
+    row-gap: 40px;
+}
+@media (max-width: 1480px) {
+    .arrivals {
+        padding: 70px 20px;
+    }
 }
 .arrivals__title {
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .arrivals__cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, auto));
+    column-gap: 20px;
 }
 .arrival__card-wrapper {
+    display: grid;
+    gap: 10px;
 }
-.arrival__card-img_wrapper {
-}
+
 .arrival__card-img {
+    width: 100%;
 }
 .arrival__card_title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 .arrival__card_stars-wrapper {
-}
-.arrival__card_stars {
-}
-.arrival__card_total-stars {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px
 }
 .arrival__card_price-wrapper {
-}
-.arrival__card_price {
-}
-.arrival__card_price-discount {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px
 }
 .arrivals__btn {
+    padding: 16px 64px;
+    background-color: #2d335e;
+    color: #ffffff;
+    border-radius: 62px;
+    text-transform: capitalize;
+}
+@media(max-width: 1258px) {
+    .arrivals__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:40px;
+    }
+    .arrival__card-img {
+        max-height: 270px;
+    }
+}
+@media(max-width: 697px) {
+    .arrivals__cards {
+        gap: 15px;
+        row-gap: 35px;
+    }
+    .arrivals__title {
+        font-size: 36px;
+    }
+}
+@media(max-width: 360px) {
+    .arrivals {
+        padding: 30px 10px;
+    }
+}
+
+
+.selling {
+    padding: 70px 100px;
+    display: grid;
+    justify-items: center;
+    row-gap: 40px;
+}
+@media (max-width: 1480px) {
+    .selling {
+        padding: 70px 20px;
+    }
+}
+.selling__title {
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.selling__cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, auto));
+    column-gap: 20px;
+}
+.selling__card-wrapper {
+    display: grid;
+    gap: 10px;
+}
+
+.selling__card-img {
+    width: 100%;
+}
+.selling__card_title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.selling__card_stars-wrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px
+}
+.selling__card_price-wrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px
+}
+.selling__btn {
+    padding: 16px 64px;
+    background-color: #2d335e;
+    color: #ffffff;
+    border-radius: 62px;
+    text-transform: capitalize;
+}
+@media(max-width: 1258px) {
+    .selling__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:40px;
+    }
+    .selling__card-img {
+        max-height: 270px;
+    }
+}
+@media(max-width: 697px) {
+    .selling__cards {
+        gap: 15px;
+        row-gap: 35px;
+    }
+    .selling__title {
+        font-size: 36px;
+    }
+}
+@media(max-width: 360px) {
+    .selling {
+        padding: 30px 10px;
+    }
 }
