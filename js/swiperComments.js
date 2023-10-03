@@ -29,7 +29,7 @@ const swiperComments = new Swiper('.swiper__comments', {
         slidesPerView: 2.5,
       },
       1280: {
-        slidesPerView: 3.2,
+        slidesPerView: 3.4,
 
       }
     }
